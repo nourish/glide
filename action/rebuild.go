@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
+	"github.com/nourish/glide/cfg"
+	"github.com/nourish/glide/msg"
+	gpath "github.com/nourish/glide/path"
 )
 
 // Rebuild rebuilds '.a' files for a project.
@@ -98,4 +98,3 @@ func buildPath(path string) error {
 	}
 	return err
 }
-

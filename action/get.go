@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/godep"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/repo"
-	"github.com/Masterminds/glide/util"
+	"github.com/nourish/glide/cfg"
+	"github.com/nourish/glide/godep"
+	"github.com/nourish/glide/msg"
+	gpath "github.com/nourish/glide/path"
+	"github.com/nourish/glide/repo"
+	"github.com/nourish/glide/util"
 )
 
 // Get fetches one or more dependencies and installs.

@@ -16,6 +16,6 @@ Glide provides the following functionality:
 
 There are a few ways to install Glide.
 
-1. Download a [versioned release](https://github.com/Masterminds/glide/releases). Glide releases are semantically versioned.
+1. Download a [versioned release](https://github.com/nourish/glide/releases). Glide releases are semantically versioned.
 2. Use a system package manager to install Glide. For example, using `brew install glide` can be used if you're using [Homebrew](http://brew.sh) on Mac.
-3. The latest development snapshot can be installed with `go get`. For example, `go get -u github.com/Masterminds/glide`. This is not a release version.
+3. The latest development snapshot can be installed with `go get`. For example, `go get -u github.com/nourish/glide`. This is not a release version.

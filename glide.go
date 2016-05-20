@@ -12,7 +12,7 @@
 //
 // A glide.yaml file looks like:
 //
-//		package: github.com/Masterminds/glide
+//		package: github.com/nourish/glide
 //		imports:
 //			- package: github.com/Masterminds/cookoo
 //			  vcs: git
@@ -33,17 +33,17 @@
 //		  export GOPATH="/some/dir"
 //		fi
 //
-// For more information use the `glide help` command or see https://github.com/Masterminds/glide
+// For more information use the `glide help` command or see https://github.com/nourish/glide
 package main
 
 import (
 	"path/filepath"
 
-	"github.com/Masterminds/glide/action"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/repo"
-	"github.com/Masterminds/glide/util"
+	"github.com/nourish/glide/action"
+	"github.com/nourish/glide/msg"
+	gpath "github.com/nourish/glide/path"
+	"github.com/nourish/glide/repo"
+	"github.com/nourish/glide/util"
 
 	"github.com/codegangsta/cli"
 
@@ -59,7 +59,7 @@ const usage = `The lightweight vendor package manager for your Go projects.
 Each project should have a 'glide.yaml' file in the project directory. Files
 look something like this:
 
-	package: github.com/Masterminds/glide
+	package: github.com/nourish/glide
 	imports:
 		- package: github.com/Masterminds/cookoo
 		  vcs: git

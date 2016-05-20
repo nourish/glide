@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Masterminds/glide/util"
 	"github.com/Masterminds/vcs"
+	"github.com/nourish/glide/util"
 	"gopkg.in/yaml.v2"
 )
 

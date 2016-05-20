@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 	"time"
-	//"github.com/Masterminds/glide/msg"
+	//"github.com/nourish/glide/msg"
 )
 
 var cacheEnabled = true

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Masterminds/glide/cfg"
+	"github.com/nourish/glide/cfg"
 )
 
 func TestResolveLocalShallow(t *testing.T) {
@@ -63,7 +63,7 @@ func TestResolve(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	base := filepath.Join(os.Getenv("GOPATH"), "src/github.com/Masterminds/glide/vendor")
+	base := filepath.Join(os.Getenv("GOPATH"), "src/github.com/nourish/glide/vendor")
 	l, err := r.Resolve("github.com/codegangsta/cli", base)
 	if err != nil {
 		t.Fatalf("Failed to resolve: %s", err)

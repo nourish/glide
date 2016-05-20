@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Masterminds/glide/godep/strip"
-	"github.com/Masterminds/glide/msg"
+	"github.com/nourish/glide/godep/strip"
+	"github.com/nourish/glide/msg"
 )
 
 // StripVcs removes VCS metadata (.git, .hg, .bzr, .svn) from the vendor/

@@ -3,7 +3,7 @@ package action
 import (
 	"bytes"
 
-	"github.com/Masterminds/glide/msg"
+	"github.com/nourish/glide/msg"
 )
 
 func Info(format string) {
