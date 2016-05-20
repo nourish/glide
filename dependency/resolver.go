@@ -543,7 +543,9 @@ func (r *Resolver) resolveImports(queue *list.List) ([]string, error) {
 				newDep.Subpackages = []string{sp}
 			}
 
-			r.Config.Imports = append(r.Config.Imports, newDep)
+			if !r.Config.HasIgnore(newDep.Name) {
+				r.Config.Imports = append(r.Config.Imports, newDep)
+			}
 		}
 		res = append(res, t)
 	}
